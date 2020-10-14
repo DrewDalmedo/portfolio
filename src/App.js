@@ -8,9 +8,12 @@ import About from './components/About/About'
 import Projects from './components/Projects/Projects'
 import Contact from './components/Contact/Contact'
 
+import Navigation from './components/Navbar/Navigation'
+
 function App() {
   return (
     <Router>
+      <Navigation />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path='/about' component={About} />
