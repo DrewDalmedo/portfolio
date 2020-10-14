@@ -1,31 +1,31 @@
 import React from 'react'
 import Navbar from 'react-bootstrap/Navbar'
-import { NavLink, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import Nav from 'react-bootstrap/Nav'
 import Container from 'react-bootstrap/Container'
 
 const Navigation = () => {
   return (
-    <Container fluid >
-      <Navbar >
+    <Container className="p-0" fluid >
+      <Navbar className="border-bottom" bg="transparent">
         <Navbar.Brand href="/">Drew Dalmedo</Navbar.Brand>
 
         <Nav>
           <Nav.Item>
             <Nav.Link>
-              <Link to="/about" className="link">About</Link>
+              <Link className="nav-link" to="/about" >About</Link>
             </Nav.Link>
           </Nav.Item>
 
           <Nav.Item>
             <Nav.Link>
-              <Link to="/projects" className="link">Projects</Link>
+              <Link className="nav-link" to="/projects" >Projects</Link>
             </Nav.Link>
           </Nav.Item>
 
           <Nav.Item>
             <Nav.Link>
-              <Link to="/contact" className="link">Contact</Link>
+              <Link className="nav-link" to="/contact" >Contact</Link>
             </Nav.Link>
           </Nav.Item>
         </Nav>
