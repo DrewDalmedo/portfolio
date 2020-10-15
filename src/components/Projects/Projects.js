@@ -1,10 +1,14 @@
 import React from 'react'
 
+import Row from 'react-bootstrap/Row'
+import ProjectCard from '../Projects/ProjectCard'
+
 const Projects = () => {
   return (
-    <div>
-      Projects Component
-    </div>
+    <Row className="justify-content-center">
+      <ProjectCard title="test" quickdesc="test"/>
+      <ProjectCard title="test" quickdesc="test"/>
+    </Row>
   )
 }
 
