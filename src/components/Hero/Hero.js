@@ -10,8 +10,9 @@ const Hero = props => {
       <Container fluid>
         <Row className="justify-content-center py-5">
           <Col md={10} sm={12}>
-            <h1 className="text-center display-1 font-weight-bolder">Drew Dalmedo</h1>
-            <h3 className="text-center display-4">Code that matters</h3>
+            <h1 className="text-center display-1 font-weight-bolder">{props.title}</h1>
+            <h3 className="text-center display-4">{props.subtitle}</h3>
+            <p className="text-center font-weight-light">{props.text}</p>
           </Col>
         </Row>
       </Container>
