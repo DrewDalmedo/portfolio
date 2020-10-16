@@ -19,7 +19,7 @@ const Navigation = () => {
 
           <Nav.Item>
             <Nav.Link>
-              <Link className="nav-link" to="/projects" >Projects</Link>
+              <Link className="nav-link" to="/blog" >Blog</Link>
             </Nav.Link>
           </Nav.Item>
 
