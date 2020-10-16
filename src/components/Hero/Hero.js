@@ -12,7 +12,6 @@ const Hero = props => {
           <Col md={10} sm={12}>
             <h1 className="text-center display-1 font-weight-bolder">{props.title}</h1>
             <h3 className="text-center display-4">{props.subtitle}</h3>
-            <p className="text-center font-weight-light">{props.text}</p>
           </Col>
         </Row>
       </Container>
