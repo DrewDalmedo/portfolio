@@ -13,19 +13,19 @@ const Navigation = () => {
         <Nav>
           <Nav.Item>
             <Nav.Link>
-              <Link className="nav-link" to="/about" >About</Link>
+              <Link className="nav-link p-0" to="/about" >About</Link>
             </Nav.Link>
           </Nav.Item>
 
           <Nav.Item>
             <Nav.Link>
-              <Link className="nav-link" to="/blog" >Blog</Link>
+              <Link className="nav-link p-0" to="/blog" >Blog</Link>
             </Nav.Link>
           </Nav.Item>
 
           <Nav.Item>
             <Nav.Link>
-              <Link className="nav-link" to="/contact" >Contact</Link>
+              <Link className="nav-link p-0" to="/contact" >Contact</Link>
             </Nav.Link>
           </Nav.Item>
         </Nav>
