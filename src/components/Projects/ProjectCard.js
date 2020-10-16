@@ -22,18 +22,22 @@ const ProjectCard = props => {
           </Card.Text>
           <Container>
             <div className="text-center">
-              <Button 
-                href={props.codelink} 
-                target="_blank"
-              >
-                  View Code
-              </Button>
-              <Button 
-                href={props.videolink} 
-                target="_blank"
-              >
-                View Demo
-              </Button>
+              <ButtonGroup>
+                <Button 
+                  variant="outline-primary"
+                  href={props.codelink} 
+                  target="_blank"
+                >
+                    View Code
+                </Button>
+                <Button
+                  variant="outline-primary"
+                  href={props.videolink} 
+                  target="_blank"
+                >
+                  View Demo
+                </Button>
+              </ButtonGroup>
             </div>
           </Container>
         </Card.Body>
