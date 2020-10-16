@@ -12,7 +12,7 @@ import Projects from '../Projects/Projects'
 const Home = () => {
   return (
     <Container className="p-0" fluid>
-      <Hero />
+      <Hero title="Drew Dalmedo" subtitle="Code that matters."/>
       <Projects />
     </Container>
   )
