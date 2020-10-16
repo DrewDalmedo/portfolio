@@ -7,19 +7,35 @@ import Col from 'react-bootstrap/Col'
 
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
+import ButtonGroup from 'react-bootstrap/ButtonGroup'
 
 const ProjectCard = props => {
   return (
-      <Card className="justify-content-center"style={{}}>
+      <Card className="justify-content-center"style={{ width: '18rem' }}>
         <Card.Img variant="top" src={placeholderimg} />
         <Card.Body>
-          <Card.Title className="d-flex justify-content-center">
+          <Card.Title className="text-center">
             {props.title}
           </Card.Title>
-          <Card.Text className="d-flex justify-content-center">
+          <Card.Text className="text-center">
             {props.quickdesc}
           </Card.Text>
-          <Button block>Learn More</Button>
+          <Container>
+            <div className="text-center">
+              <Button 
+                href={props.codelink} 
+                target="_blank"
+              >
+                  View Code
+              </Button>
+              <Button 
+                href={props.videolink} 
+                target="_blank"
+              >
+                View Demo
+              </Button>
+            </div>
+          </Container>
         </Card.Body>
       </Card>
   )
