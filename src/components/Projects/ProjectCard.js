@@ -12,7 +12,7 @@ import ButtonGroup from 'react-bootstrap/ButtonGroup'
 const ProjectCard = props => {
   return (
       <Card className="justify-content-center"style={{ width: '18rem' }}>
-        <Card.Img variant="top" src={placeholderimg} />
+        <Card.Img className="border" variant="top" src={props.image} />
         <Card.Body>
           <Card.Title className="text-center">
             {props.title}
