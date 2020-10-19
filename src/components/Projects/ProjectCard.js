@@ -45,4 +45,10 @@ const ProjectCard = props => {
   )
 }
 
+ProjectCard.defaultProps = {
+  image: placeholderimg,
+  title: "Untitled Project",
+  quickdesc: "No description provided."
+}
+
 export default ProjectCard
