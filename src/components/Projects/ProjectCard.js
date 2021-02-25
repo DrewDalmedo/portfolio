@@ -2,8 +2,6 @@ import React from 'react';
 import placeholderimg from '../../assets/placeholder.svg';
 
 import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
 
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
@@ -32,7 +30,7 @@ const ProjectCard = props => {
                 </Button>
                 <Button
                   variant="outline-primary"
-                  href={props.videolink} 
+                  href={props.demolink} 
                   target="_blank"
                 >
                   View Demo
